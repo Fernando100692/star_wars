@@ -1,0 +1,67 @@
+
+.app-container {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: 'column';
+    justify-content: center;
+  }
+
+/* Card Style - Start */
+.app-card {
+    margin: 15px;
+    margin-bottom: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px; /* 5px rounded corners */
+}
+
+.app-card:hover {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.3);
+}
+
+h2 {
+    color: #1369ce;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.category {
+    font-weight: 600;
+    color: darkgray;
+}
+
+.category2 {
+    font-weight: 600;
+    color: #1369ce;
+}
+
+.category3 {
+    font-weight: 600;
+    color: black;
+}
+
+.row {
+    display: flex;
+    margin-top: 20px;
+  }
+
+.row2 {
+    display: flex;
+}
+
+  
+.column {
+    flex: 50%;
+}
+/* Card Style - End */
+
+.app-paginator {
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.starwars{
+    width: 10%;
+    margin: 30px;
+    align-self: center;
+}
